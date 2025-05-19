@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diagnóstico de Prontidão para Indústria 4.0</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <section id="pagina-inicial">
+            <h1>Prepare sua Empresa para o Futuro com Tecnologia e Automação</h1>
+            <p>Em um mercado cada vez mais competitivo, a adoção de tecnologias e a automação de processos não são mais um luxo, mas sim uma necessidade para empresas de todos os portes, incluindo mercados, lojas de construção, oficinas, postos de gasolina e padarias em nossa cidade.</p>
+
+            <h2>Benefícios da Adoção de Tecnologia e Automação:</h2>
+            <ul>
+                <li><strong>Aumento da Eficiência:</strong> Automatizar tarefas repetitivas libera sua equipe para focar em atividades estratégicas.</li>
+                <li><strong>Redução de Custos:</strong> A otimização de processos e o controle de recursos podem levar a economias significativas.</li>
+                <li><strong>Melhora na Qualidade:</strong> A tecnologia pode ajudar a garantir a consistência e a precisão em seus produtos e serviços.</li>
+                <li><strong>Melhor Atendimento ao Cliente:</strong> Ferramentas digitais podem aprimorar a comunicação e a experiência do cliente.</li>
+                <li><strong>Tomada de Decisão Mais Inteligente:</strong> A coleta e análise de dados fornecem insights valiosos para o seu negócio.</li>
+            </ul>
+
+            <p>Descubra o nível de prontidão da sua empresa em relação à tecnologia e automação respondendo ao nosso breve diagnóstico:</p>
+            <button id="iniciar-diagnostico">Iniciar Diagnóstico</button>
+        </section>
+
+        <section id="questionario" class="oculto">
+            <h2>Diagnóstico de Prontidão - Tecnologia e Automação</h2>
+            <form id="questionario-form">
+                <div class="pergunta">
+                    <label for="automacao">1. Qual o nível de automação dos processos de produção em sua empresa?</label>
+                    <select id="automacao" name="automacao">
+                        <option value="0">Predominantemente manual</option>
+                        <option value="1">Alguns processos automatizados</option>
+                        <option value="2">Maioria dos processos automatizada</option>
+                        <option value="3">Altamente automatizados e integrados</option>
+                    </select>
+                </div>
+
+                <div class="pergunta">
+                    <label for="erp">2. Sua empresa utiliza algum tipo de Software de Gestão Integrada (ERP)?</label>
+                    <select id="erp" name="erp">
+                        <option value="0">Não utilizamos</option>
+                        <option value="1">ERP básico para algumas áreas</option>
+                        <option value="2">ERP abrangente integrado</option>
+                        <option value="3">ERP avançado com análise de dados</option>
+                    </select>
+                </div>
+
+                <div class="pergunta">
+                    <label for="estoque">3. Como sua empresa gerencia o estoque de produtos?</label>
+                    <select id="estoque" name="estoque">
+                        <option value="0">Controle manual em planilhas ou cadernos.</option>
+                        <option value="1">Utilizamos um software básico de controle de estoque.</option>
+                        <option value="2">Utilizamos um sistema de gestão de estoque integrado com outras áreas.</option>
+                        <option value="3">Nosso estoque é monitorado e otimizado automaticamente com base em dados de venda.</option>
+                    </select>
+                </div>
+
+                <div class="pergunta">
+                    <label for="vendas">4. Como são realizadas as vendas e o atendimento ao cliente?</label>
+                    <select id="vendas" name="vendas">
+                        <option value="0">Predominantemente atendimento presencial e vendas manuais.</option>
+                        <option value="1">Utilizamos algum sistema de ponto de venda (PDV) básico.</option>
+                        <option value="2">Oferecemos vendas online ou por aplicativos de mensagens, além do presencial.</option>
+                        <option value="3">Utilizamos plataformas de e-commerce integradas e ferramentas de CRM para gerenciar clientes.</option>
+                    </select>
+                </div>
+
+                <div class="pergunta">
+                    <label for="pagamentos">5. Quais formas de pagamento sua empresa aceita e como são processados?</label>
+                    <select id="pagamentos" name="pagamentos">
+                        <option value="0">Apenas dinheiro e/ou algumas poucas opções de cartão.</option>
+                        <option value="1">Aceitamos diversas opções de cartão e utilizamos máquinas de cartão básicas.</option>
+                        <option value="2">Utilizamos sistemas de pagamento digital e/ou integrado com o sistema de vendas.</option>
+                        <option value="3">Oferecemos diversas opções de pagamento online e contactless, com processos automatizados de conciliação.</option>
+                    </select>
+                </div>
+
+                <div class="pergunta">
+                    <label for="marketing">6. Como sua empresa realiza o marketing e a divulgação?</label>
+                    <select id="marketing" name="marketing">
+                        <option value="0">Principalmente boca a boca e anúncios locais tradicionais.</option>
+                        <option value="1">Utilizamos algumas redes sociais para divulgação.</option>
+                        <option value="2">Temos uma presença online ativa com site e redes sociais, com alguma interação com clientes.</option>
+                        <option value="3">Utilizamos estratégias de marketing digital direcionadas, análise de dados e automação de campanhas.</option>
+                    </select>
+                </div>
+
+                <div class="pergunta">
+                    <label for="comunicacao">7. Como a comunicação interna é realizada entre os funcionários?</label>
+                    <select id="comunicacao" name="comunicacao">
+                        <option value="0">Principalmente comunicação verbal e quadros de aviso.</option>
+                        <option value="1">Utilizamos grupos de mensagens básicos (ex: WhatsApp).</option>
+                        <option value="2">Utilizamos ferramentas de comunicação interna dedicadas (ex: Slack, Microsoft Teams).</option>
+                        <option value="3">Nossa comunicação interna é integrada com sistemas de gestão e fluxos de trabalho automatizados.</option>
+                    </select>
+                </div>
+
+                <div class="pergunta">
+                    <label for="treinamento">8. Como são realizados os treinamentos de novos funcionários e a atualização de conhecimentos?</label>
+                    <select id="treinamento" name="treinamento">
+                        <option value="0">Principalmente treinamento prático informal.</option>
+                        <option value="1">Utilizamos alguns materiais impressos ou vídeos básicos de treinamento.</option>
+                        <option value="2">Oferecemos treinamentos online ou presenciais estruturados.</option>
+                        <option value="3">Utilizamos plataformas de e-learning e sistemas de gestão do conhecimento para treinamento contínuo.</option>
+                    </select>
+                </div>
+
+                <div class="pergunta">
+                    <label for="manutencao">9. Como é realizada a manutenção de equipamentos e instalações (se aplicável)?</label>
+                    <select id="manutencao" name="manutencao">
+                        <option value="0">Manutenção corretiva apenas quando necessário.</option>
+                        <option value="1">Realizamos manutenções preventivas básicas com alguma regularidade.</option>
+                        <option value="2">Temos um plano de manutenção preventiva estruturado e registros de manutenção.</option>
+                        <option value="3">Utilizamos sistemas de monitoramento de equipamentos e/ou softwares de gestão de manutenção (CMMS).</option>
+                    </select>
+                </div>
+
+                <div class="pergunta">
+                    <label for="energia">10. Como sua empresa monitora e gerencia o consumo de energia e outros recursos?</label>
+                    <select id="energia" name="energia">
+                        <option value="0">Monitoramento básico das contas de consumo.</option>
+                        <option value="1">Implementamos algumas medidas para reduzir o consumo (ex: lâmpadas LED).</option>
+                        <option value="2">Monitoramos o consumo de forma mais detalhada e buscamos otimizações.</option>
+                        <option value="3">Utilizamos sistemas de automação para controle de iluminação, climatização e outros recursos, visando a eficiência energética.</option>
+                    </select>
+                </div>
+
+                <button type="submit">Enviar Respostas</button>
+            </form>
+            </section>
+
+            <div id="resultado" class="resultado-oculto">
+                <h2>Resultados do Diagnóstico</h2>
+                <p>Pontuação Total: <span id="pontuacao-total"></span></p>
+                <p>Interpretação: <span id="interpretacao"></span></p>
+                <p>Recomendações: <span id="recomendacoes"></span></p>
+            </div>
+        
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

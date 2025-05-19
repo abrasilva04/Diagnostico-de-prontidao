@@ -1,0 +1,123 @@
+.oculto {
+    display: none;
+}
+
+.container {
+    font-family: sans-serif;
+    max-width: 700px; /* Aumentei um pouco a largura */
+    margin: 20px auto;
+    padding: 30px; /* Aumentei um pouco o padding */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #b0f4bf; /* Adicionei uma cor de fundo suave */
+}
+
+#pagina-inicial {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#pagina-inicial h1 {
+    color: #007bff; /* Cor destaque para o título */
+}
+
+#pagina-inicial ul {
+    list-style: disc;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+#pagina-inicial li {
+    margin-bottom: 5px;
+}
+
+#iniciar-diagnostico {
+    background-color: #28a745; /* Cor verde para ação positiva */
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+}
+
+#iniciar-diagnostico:hover {
+    background-color: #1e7e34;
+}
+
+#questionario h2 {
+    color: #007bff; /* Cor destaque para o título do questionário */
+    margin-top: 0;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.pergunta {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: white; /* Fundo branco para as perguntas */
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #333; /* Cor do texto da label */
+}
+
+select {
+    width: calc(100% - 16px);
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    font-size: 16px;
+}
+
+button[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    display: block; /* Para ocupar a largura total */
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+#resultado {
+    margin-top: 30px;
+    padding: 20px;
+    border: 1px solid #eee;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+#resultado h2 {
+    margin-top: 0;
+    color: #28a745; /* Cor destaque para o título dos resultados */
+}
+
+#resultado p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+#resultado span {
+    font-weight: bold;
+    color: #007bff; /* Cor destaque para os valores */
+}
+.resultado-oculto {
+    display: none;
+}
